@@ -51,7 +51,7 @@ const Navbar = () => {
                         </>
                     ) : (
                         <>
-                            <NavLink to="/mypaybills" className={linkClass}>
+                            <NavLink to="/paybills" className={linkClass}>
                                 My Pay Bills
                             </NavLink>
 

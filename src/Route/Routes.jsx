@@ -5,6 +5,7 @@ import Bills from "../Pages/Home/Bill/Bills.jsx";
 import Details from "../Pages/Home/Details/Details.jsx"
 import Login from "../Component/login.jsx";
 import Register from "../Component/Register.jsx";
+import MyBills from "../Component/MyBills.jsx";
 
 
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/bills/:id",
         element: <Details/>,
+      },
+      {
+        path: "/paybills",
+        element: <MyBills/>
       },
       {
         path: "login",
